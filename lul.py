@@ -1,1 +1,2 @@
-print('jjj') #lul
+import os
+print(os.getcwd())
