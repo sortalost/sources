@@ -1,1 +1,1 @@
-{'user1': {'id': '111', 'money': 40}, 'user2': {'id': '222', 'money': 0}, 'u': {'id': 'X', 'money': 200}}
+{'user1': {'id': '111', 'money': 40}, 'user2': {'id': '222', 'money': 0}, 'u': {'id': 'X', 'money': 0}}
