@@ -9,6 +9,7 @@
   .topnav {
     background-color: #666666;
     overflow: hidden;
+    z-index:1;
     position: fixed;
     width: 100%
   }
