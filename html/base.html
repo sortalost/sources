@@ -1,0 +1,40 @@
+<!-- MY BASIC JINJA2 TEMPLATE -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="API at Gotto.TK!">
+    <meta name="author" content="lost">
+    <link rel="stylesheet" href="https://cdn.gotto.tk/css/header.css">
+    <link rel="stylesheet" href="https://cdn.gotto.tk/css/theme.css">
+    <!-- <link rel="stylesheet" href="/static/custom.css"> -->
+    <!-- <link rel="shortcut icon" type="image/x-icon" href="https://cdn.gotto.tk/favicon.png"> -->
+    <title>{% block title %}{% endblock %}</title>
+</head>
+    <body>
+           <header>
+                <div class="topnav">
+                    <nav id='navbar'>
+                    <a href="https://gotto.tk" target="blank">Home</a>
+                    <a href="https://threads.gotto.tk" target="_blank">Threads</a>
+                    <a href="https://work.gotto.tk" target="_blank">Work</a>
+                    <a href="https://inbox.gotto.tk" target="_blank">Inbox</a>
+                    <a href="https://me.gotto.tk" target="_blank">By</a>
+                    <!-- <a href="" target="_blank">CUSTOM</a> -->
+                    </nav>
+                </div>
+            </header>
+        <br><br><br>
+        {% block body %}
+        {% endblock %}
+<br><br><br><br>
+    <hr>
+    <p style="text-align: center;"><footer>&#169; none, never</footer></p>
+    <hr>
+</body>
+</html>
+
+    
