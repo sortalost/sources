@@ -23,16 +23,16 @@ input {
   
   
   button {
-    background-color: #b8b8b8;
+    background-color: #3d3d3d;
     border: border-box;
-    color: #040132;
+    color: #00c288;
     padding: 7px 7px;
-    text-decoration: none;
+    text-decoration: bolder;
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 5px;
     font-family:cursive;
-    font-size:10px;
+    font-size:20px;
   }
   
   
