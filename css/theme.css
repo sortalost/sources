@@ -1,6 +1,6 @@
 /* https://cdn.gotto.tk/LICENSE */
 
-input[type=text] {
+input {
     float:center;
     width: 30%;
     height: auto;
@@ -16,13 +16,13 @@ input[type=text] {
     transition: width 0.2s;
   }
   
-  input[type=text]:hover{
+  input:hover {
       width: 32%;
       background-color: #b7b7b7 ;
   }
   
   
-  button[type=submit] {
+  button {
     background-color: #b8b8b8;
     border: border-box;
     color: #040132;
