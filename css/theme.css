@@ -136,4 +136,10 @@ input {
   }
   
   
+img {}
+.flag {
+    height: 10px;
+    width: 15px;
+    border-radius: 20%;
+}
   
