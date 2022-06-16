@@ -142,4 +142,29 @@ img {}
     width: 15px;
     border-radius: 20%;
 }
-  
+
+
+/* Taken from: gh/@pritam42069/website/public/css/index.css  */
+#anim {
+    animation-name: anim;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes anim {
+    0% {
+        color: red;
+    }
+    25% {
+        color: blue;
+    }
+    50% {
+        color: green;
+    }
+    75% {
+        color: blue;
+    }
+    100% {
+        color: red;
+    }
+}
