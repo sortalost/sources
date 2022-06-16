@@ -14,6 +14,6 @@ function sleep(milisec) {
 // Get IP
 function getip() {
     $.getJSON("https://api.ipify.org?format=json", function(data) {
-        console.log(data.ip)
+        return data.ip
 })
 }
