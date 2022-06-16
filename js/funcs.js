@@ -10,3 +10,10 @@ function sleep(milisec) {
     return new Promise(resolve => setTimeout(resolve, milisec));
 }
 
+
+// Get IP
+function getip() {
+    $.getJSON("https://api.ipify.org?format=json", function(data) {
+        console.log(data.ip)
+})
+}
