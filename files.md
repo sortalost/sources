@@ -8,3 +8,7 @@
 [skull.gif](/files/skull.gif)
 <br>
 [words.txt](/files/words.txt)
+<br>
+[industry-baby.mp3](/files/industry-baby.mp3)
+<br>
+[gta-ico.png](/files/gta-ico.png)
