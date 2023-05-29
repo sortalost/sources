@@ -1,0 +1,214 @@
+
+/* SMOOTH FADE-IN BEFORE LOADING */
+html {
+    /* margin-top: 25px; */
+    font-size: 21px;
+    text-align: center;
+    animation: fadein 3s;
+    -moz-animation: fadein 3s; /* Firefox */
+    -webkit-animation: fadein 3s; /* Safari and Chrome */
+    -o-animation: fadein 3s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* ORANGE STRIPS AT THE BORDER OF THE PAGE */
+
+html {
+    /* background-color:#ffb24d; */
+	padding: 0px;
+	overflow-x: hidden; /* For Opera */
+	-webkit-box-shadow:
+        inset #FF6200 0 0 0 1px,
+		inset #FD7F2C 0 0 0 5px,
+		inset #FD9346 0 0 0 9px,
+		inset #FDA766 0 0 0 13px,
+		inset #FDB777 0 0 0 17px,
+    	inset #FF6200 0 0 0 21px,
+		inset #FD7F2C 0 0 0 25px,
+		inset #FD9346 0 0 0 29px,
+		inset #FDA766 0 0 0 33px,
+		inset #FDB777 0 0 0 37px;
+		/* inset #454545 0 0 0 17px,
+		inset #4f4f4f 0 0 0 22px,
+		inset #545454 0 0 0 23px; */
+	-moz-box-shadow:
+		inset #FF6200 0 0 0 1px,
+		inset #FD7F2C 0 0 0 5px,
+		inset #FD9346 0 0 0 9px,
+		inset #FDA766 0 0 0 13px,
+		inset #FDB777 0 0 0 17px,
+    	inset #FF6200 0 0 0 21px,
+		inset #FD7F2C 0 0 0 25px,
+		inset #FD9346 0 0 0 29px,
+		inset #FDA766 0 0 0 33px,
+		inset #FDB777 0 0 0 37px;
+		/* inset #454545 0 0 0 17px,
+		inset #4f4f4f 0 0 0 22px,
+		inset #545454 0 0 0 23px; */
+	box-shadow:
+		inset #FF6200 0 0 0 1px,
+		inset #FD7F2C 0 0 0 5px,
+		inset #FD9346 0 0 0 9px,
+		inset #FDA766 0 0 0 13px,
+		inset #FDB777 0 0 0 17px,
+    	inset #FF6200 0 0 0 21px,
+		inset #FD7F2C 0 0 0 25px,
+		inset #FD9346 0 0 0 29px,
+		inset #FDA766 0 0 0 33px,
+		inset #FDB777 0 0 0 37px;
+
+		/* inset #454545 0 0 0 17px,
+		inset #4f4f4f 0 0 0 22px,
+		inset #545454 0 0 0 23px; */
+}
+
+/* MOBILE RESPONSIVE NAV */
+body {
+	margin: 0;
+	padding: 0;
+}
+nav {
+	background-color: #F26547;
+	height: 70px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 20px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+nav a {
+	color: white;
+	text-decoration: none;
+	font-size: 1.2em;
+	margin-left: 50px;
+	transform: skewX(-20deg);
+	transition: 0.3s ease-in-out;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+nav a:hover {
+	transform: skewX(-20deg) scale(1.1);
+	text-decoration: bold;
+}
+nav a:first-child {
+	margin-left: 0;
+}
+nav img {
+	height: 50px;
+}
+
+
+/* DIV SLIDE SHOW */
+
+
+.slider {
+	overflow: hidden;
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+   }
+	
+   .slider .slide {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+	animation: slider 6s infinite;
+   }
+	
+   .slider .slide:nth-child(1) {
+	  background-image: url('https://img.freepik.com/free-vector/flying-dollars-set_74855-6465.jpg');
+	  animation-delay: 0s;
+   }
+   
+   .slider .slide:nth-child(2) {
+	  background-image: url('https://img.freepik.com/free-vector/flying-dollars-set_74855-6465.jpg');
+	  animation-delay: -2s;
+   }
+   
+   .slider .slide:nth-child(3) {
+	  background-image: url('https://img.freepik.com/free-vector/flying-dollars-set_74855-6465.jpg');
+	  animation-delay: -4s;
+   }
+   
+   @keyframes slider {
+	0%, 16%, 100% {
+	  transform: translateX(0);
+	  animation-timing-function: ease;
+	}
+	33% {
+	  transform: translateX(-100%);
+	  animation-timing-function: step-end;
+	}
+	83% {
+	  transform: translateX(100%);
+	  animation-timing-function: ease;
+	}
+   }
+
+
+/* BACK TO TOP BTN # -> id; . -> class */
+#back-to-top {
+	display: none;
+	position: fixed;
+	bottom: 2%;
+	right: 5%; 
+	z-index: 99;
+	outline: none;
+	background-color: #ff8b24;
+	color: white;
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 9999999px;
+	border: none;
+	cursor: pointer;
+	appearance: none;
+	background-color: inherit;
+	margin-left:10px
+  }
+  
+  #back-to-top:hover {
+	transition: transform .4s ease-in-out;
+	background-color: #FF8B00;
+  }
+  
+
+@media screen and (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
