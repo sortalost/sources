@@ -1211,6 +1211,12 @@
             "content": "Hey",
             "timestamp": "14:23:24 on 02/11, 2024",
             "avatar": "https://robohash.org/172.70.46.120?set=set5"
+        },
+        {
+            "from": "172.70.46.120",
+            "content": "? ",
+            "timestamp": "14:23:34 on 02/11, 2024",
+            "avatar": "https://robohash.org/172.70.46.120?set=set5"
         }
     ]
 }
