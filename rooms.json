@@ -1186,5 +1186,13 @@
             "timestamp": "05:46:11 on 25/10, 2024",
             "avatar": "https://robohash.org/172.71.182.176?set=set5"
         }
+    ],
+    "realistic": [
+        {
+            "from": "SYSTEM",
+            "content": "NEW CHANNEL NAMED \"Realistic\"",
+            "timestamp": "00:00:00",
+            "avatar": "https://sortalost.github.io/favicon.ico"
+        }
     ]
 }
