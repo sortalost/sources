@@ -1337,6 +1337,12 @@
             "content": "bro i ain't no genius like ya i take time",
             "timestamp": "14:31:02 on 02/11, 2024",
             "avatar": "https://robohash.org/162.158.23.75?set=set5"
+        },
+        {
+            "from": "172.70.110.77",
+            "content": "just use gpt aarush. try avoiding the use of other libraries, like flask-wtf etc; flow should be like the main.py there",
+            "timestamp": "14:32:31 on 02/11, 2024",
+            "avatar": "https://robohash.org/172.70.110.77?set=set5"
         }
     ]
 }
