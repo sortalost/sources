@@ -1422,5 +1422,13 @@
             "timestamp": "06:15:53 on 03/11, 2024",
             "avatar": "https://dev.saimudra.com/static/images/favicon.ico"
         }
+    ],
+    "js": [
+        {
+            "from": "SYSTEM",
+            "content": "NEW CHANNEL NAMED \"Js\"",
+            "timestamp": "00:00:00",
+            "avatar": "https://sortalost.github.io/favicon.ico"
+        }
     ]
 }
