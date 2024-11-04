@@ -1,10 +1,1 @@
-{
-    "general": [
-        {
-            "from": "SYSTEM",
-            "content": "NEW CHANNEL NAMED \"General\"",
-            "timestamp": "00:00:00",
-            "avatar": "https://sortalost.github.io/favicon.ico"
-        }
-    ]
-}
+{}
