@@ -1,17 +1,1 @@
-{
-    "general": [
-        {
-            "from": "SYSTEM",
-            "content": "NEW CHANNEL NAMED \"General\"",
-            "timestamp": "00:00:00",
-            "avatar": "https://sortalost.github.io/favicon.ico"
-        },
-        {
-            "username": "growling-popular",
-            "ip": "172.71.102.55",
-            "content": "So this is how it is!",
-            "timestamp": "15:08:12 on 04/11, 2024",
-            "avatar": "https://robohash.org/172.71.102.55?set=set5"
-        }
-    ]
-}
+{}
