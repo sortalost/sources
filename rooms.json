@@ -14,5 +14,14 @@
             "timestamp": "15:14:31 on 04/11, 2024",
             "avatar": "https://robohash.org/172.71.102.55?set=set5"
         }
+    ],
+    "lost": [
+        {
+            "username": "SYSTEM",
+            "ip": "6.9.6.9",
+            "content": "NEW CHANNEL NAMED \"Lost\"",
+            "timestamp": "00:00:00",
+            "avatar": "https://sortalost.github.io/favicon.ico"
+        }
     ]
 }
