@@ -20,6 +20,13 @@
             "content": "so new channels are created since there are crawlers all over the internet",
             "timestamp": "16:00:32 on 08/11, 2024",
             "avatar": "https://sortalost.github.io/favicon.ico"
+        },
+        {
+            "username": "sortalost",
+            "ip": "172.70.231.13",
+            "content": "the logic is that if there a request at /chat/room/someroom, and if someroom does not exist, it is created",
+            "timestamp": "16:01:02 on 08/11, 2024",
+            "avatar": "https://sortalost.github.io/favicon.ico"
         }
     ],
     "lost": [
