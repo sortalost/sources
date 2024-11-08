@@ -77,5 +77,14 @@
             "timestamp": "00:00:00",
             "avatar": "https://sortalost.github.io/favicon.ico"
         }
+    ],
+    "alpha": [
+        {
+            "username": "SYSTEM",
+            "ip": "6.9.6.9",
+            "content": "NEW CHANNEL NAMED \"Alpha\"",
+            "timestamp": "00:00:00",
+            "avatar": "https://sortalost.github.io/favicon.ico"
+        }
     ]
 }
