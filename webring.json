@@ -1,7 +1,7 @@
 {
   "sitename" : {
     "url": "//sitename.com",
-    "banner" "//sitename.com/images/banner.gif"
+    "banner": "//sitename.com/images/banner.gif"
   },
 "site2" :{
     "url": "//site2.com",
