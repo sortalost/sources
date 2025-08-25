@@ -10,5 +10,9 @@
   "Beelzebabe Button": {
   "url":"https://beelzebabe.neocities.org",
   "banner":"https://beelzebabe.neocities.org/home/assets/Buttons/beelzebabe-new-spirals.gif"
+  },
+  "vilespace": {
+    "url":"http://vilespace.neocities.org/",
+    "banner":"https://vilespace.neocities.org/Media/vsbutton.gif"
   }
 }
