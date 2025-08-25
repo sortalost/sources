@@ -2,5 +2,13 @@
   "dimden.dev" : {
     "url": "https://dimden.dev",
     "banner": "https://dimden.dev/services/images/88x31.gif"
+  },
+  "radio garden":{
+    "url":"https://radio.garden",
+    "banner":"https://souledoutci.eshci.com/wp-content/uploads/2023/06/Radio-Garden.png"
+  },
+  "Beelzebabe Button": {
+  "url":"https://beelzebabe.neocities.org",
+  "banner":"https://beelzebabe.neocities.org/home/assets/Buttons/beelzebabe-new-spirals.gif"
   }
 }
