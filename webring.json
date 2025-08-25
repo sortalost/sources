@@ -1,10 +1,6 @@
 {
-  "sitename" : {
-    "url": "//sitename.com",
-    "banner": "//sitename.com/images/banner.gif"
-  },
-"site2" :{
-    "url": "//site2.com",
-    "banner": "//site2.com/images/banner.gif"
+  "dimden.dev" : {
+    "url": "https://dimden.dev",
+    "banner": "https://dimden.dev/services/images/88x31.gif"
   }
 }
